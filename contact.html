@@ -24,7 +24,6 @@
         </tr>
     </table>
     
-
     <table cellspacing="50" width="100%" bgcolor="#656563">
         <tr>
             <td colspan="3">
@@ -34,7 +33,7 @@
     </table>
 
     <form enctype="utf-8">
-        <table cellspacing="20" width="100%" border="1">
+        <table cellspacing="20" width="100%">
             <tr height="100">
                 <td width="20%"></td>
                 <td width="10%">
@@ -42,7 +41,7 @@
                 </td>
                 <td width="10%"></td>
                 <td width="40%">
-                    <input type="text" placeholder="First Name" pattern="[A-Za-z]{1,}" size="50%">
+                    <input type="text" placeholder="First Name" pattern="[A-Za-z]{1,}" size="50%" required>
                 </td>
                 <td width="20%"></td>
             </tr>
@@ -50,7 +49,7 @@
             <tr height="70">
                 <td colspan="3"></td>
                 <td>
-                    <input type="text" placeholder="Last Name" pattern="[A-Za-z]{1,}" size="50%">
+                    <input type="text" placeholder="Last Name" pattern="[A-Za-z]{1,}" size="50%" required>
                 </td>
                 <td></td>
             </tr>
@@ -58,8 +57,69 @@
             <tr height="70">
                 <td colspan="3"></td>
                 <td>
-                    <input type="email" name="email" id="email" size="50%" placeholder="Your email, something@example.com">
+                    <input type="email" name="email" id="email" size="50%" placeholder="Your email, something@example.com" required>
                 </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td colspan="3"></td>
+                <td>
+                    <textarea name="message" id="message" placeholder="message" cols="42" rows="10" required></textarea>
+                </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td colspan="3"></td>
+                <td>
+                    <input type="submit" value="submit">
+                </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td colspan="3">
+                    <hr>
+                </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td colspan="5">
+                    <h1 align="center">
+                        More ways to get in contact
+                    </h1>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td colspan="3">
+                    <center>
+                        <img src="./asset/image/Profile_picture.jpg" width="50" height="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="./asset/image/Profile_picture.jpg" width="50" height="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="./asset/image/Profile_picture.jpg" width="50" height="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="./asset/image/Profile_picture.jpg" width="50" height="50">
+                    </center> 
+                </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td colspan="3">
+                    <hr>
+                </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td colspan="5">
+                    <p align="center">&copy; Tewodros Admassu, 2020</p>
+                </td>
+            </tr>
         </table>
     </form> 
 </body>
